@@ -39,3 +39,18 @@ This project calculates and visualizes daily percentage changes in the FTSE 100 
 Excel: Quick, intuitive and used widley in industry practice and for smaller datasets
 
 Python: Excellent and great for large data, for data analysis can work well with larger datasets, better for automation.
+
+Key Insights
+
+Small Average Moves, Occasional Spikes:
+The FTSE 100’s average daily return is close to 0%, meaning the index tends to move in small increments day to day. However, there are occasional sharp rises or drops—these spikes often reflect major economic data releases or geopolitical news.
+
+Volatility Exists Even in Stability:
+The standard deviation (volatility) of daily changes is around 1%, indicating moderate short-term market swings. This level of fluctuation is typical for large indices like the FTSE 100 and highlights how even “stable” markets have daily uncertainty.
+
+Largest Moves Define Market Sentiment:
+The biggest single-day gain was roughly +{max_gain:.2f}%, while the largest drop reached about {max_loss:.2f}%. These moments tend to cluster around macroeconomic events, underlining how market sentiment can shift quickly within days.
+
+Conclusion
+
+This analysis shows that while the FTSE 100 is relatively stable in aggregate, daily returns can fluctuate noticeably. Regular visualization of these changes helps identify volatility clusters and provides a clearer picture of how external events impact UK market performance.
